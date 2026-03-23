@@ -60,6 +60,11 @@ Dynamic point cloud compression (DPCC) is crucial in applications like autonomou
 
 ![The image of AdaDPCC](image/AdaDPCC.png) 
 
+
+
+# Experimental result
+
+
 As shown in the following, our experiment evaluation of geometry lossy compression algorithms yields several important findings. Across different point cloud datasets, we observe distinct performance rankings in terms of D1 PSNR metrics. On the Owlii dataset, the methods rank as follows: D-DPCC+SparsePCGC demonstrates superior performance, followed by SparsePCGC, D-DPCC, PCGCv2, GeSTM-trisoup-inter, and GeSTM-octree-inter method. However, on our proposed dataset, the performance hierarchy shifts slightly, with SparsePCGC achieving the best results, followed by D-DPCC+SparsePCGC, D-DPCC, PCGCv2, GeSTM-trisoup-inter, and GeSTM-octree-inter method. The results clearly indicate that learning-based approaches, particularly SparsePCGC and D-DPCC, consistently outperform traditional non-learning based methods such as PCGCv2 and GeSTM variants. This performance advantage is observed for both D1 and D2 PSNR metrics, where the relative rankings remain largely consistent.
 
 
