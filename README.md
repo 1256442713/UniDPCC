@@ -11,7 +11,7 @@ Training Dataset：
 Testing Datase:
 https://pan.baidu.com/s/1JhiVj2kqEwi7aoMkl-_RcQ?pwd=8kmn 提取码: 8kmn
 
-
+# Motivation
 
 Current research on dynamic point clouds faces significant challenges due to the scarcity of available datasets, particularly for international standards such as MPEG and AVS Point Cloud Compression (PCC), which suffer from insufficient sample numbers and limited scene diversity. To address this critical issue, this study constructs a open-source dynamic point cloud dataset specifically designed for AI-PCC applications. The dataset comprises 18 3D objects, provides high-frame-rate sequences at 200 FPS, and supports multiple quantization bit depths (10–12 bits). With its rich scene complexity and fine-grained details, the dataset comprehensively meets the requirements for dynamic point cloud compression. The data collection process leverages open-source 3D model platforms such as Sketchfab, where freely usable Mesh models is carefully selected through rigorous comparison and filtering. During data processing, tools including Blender, MeshLab, and CloudCompare is employed for model loading, sampling, and preprocessing. The final standardized point cloud sequences is generated through quantization and normal vector extraction. Experiment results demonstrate that the BD-PSNR compression performance from our dataset effectively reflect algorithm characteristics, validating its importance in dynamic point cloud compression research. Furthermore, we introduce a comprehensive dynamic point cloud compression algorithm library to facilitate performance benchmarking and comparative analysis for future research.
 
