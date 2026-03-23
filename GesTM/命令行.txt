@@ -1,0 +1,14 @@
+
+
+./tmc3.exe --config=C:/Users/30309/Desktop/jnd/encoder.cfg --uncompressedDataPath=C:/Users/30309/Desktop/jnd/PCQA_ASCII/Andrew_nxyz_q_bit10_ascii.ply --compressedStreamPath=C:/Users/30309/Desktop/jnd/bin/Andrew_nxyz_16_1.0.bin
+
+./tmc3.exe --mode=1 --config=C:/Users/30309/Desktop/jnd/decoder.cfg --compressedStreamPath=C:/Users/30309/Desktop/jnd/bin/Andrew_nxyz_q_bit10_ascii_16_1.0.bin --reconstructedDataPath=C:/Users/30309/Desktop/jnd/reco/Andrew_nxyz_q_bit10_ascii_16_1.0.ply
+
+./tmc3.exe --mode=1 --config=C:/Users/30309/Desktop/jnd/decoder.cfg --compressedStreamPath=C:/Users/30309/Desktop/jnd/bin/Andrew_nxyz_q_bit10_ascii_51_0.125.bin --reconstructedDataPath=C:/Users/30309/Desktop/jnd/reco/Andrew_nxyz_q_bit10_ascii_51_0.125.ply
+
+./tmc3.exe --config=C:/Users/30309/Desktop/jnd/encoder1.cfg --uncompressedDataPath=C:/Users/30309/Desktop/song_qp_exp/dataset/girl.ply --compressedStreamPath=C:/Users/30309/Desktop/jnd/bin11/girl.bin
+
+./tmc3.exe --config=C:/Users/30309/Desktop/jnd/encoder1.cfg --uncompressedDataPath=C:/Users/30309/Desktop/jnd/PCQA_ASCII/Andrew_nxyz_q_bit10_ascii.ply --compressedStreamPath=C:/Users/30309/Desktop/jnd/bin11/Andrew_nxyz_16_1.0.bin
+
+----------------------------------------------------------------------------------------------------------------------
+./tmc3.exe --config=E:/MPEGBitControl/encoder.cfg --uncompressedDataPath=D:\MPEGCat3Frame\Ford_01_q1mm/Ford_01_vox1mm-0100.ply --compressedStreamPath=E:/MPEGBitControl/bin/Ford_01_1mm-0100.bin --frameCount=3 >E:/MPEGBitControl/log/a.log
